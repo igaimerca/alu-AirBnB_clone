@@ -20,7 +20,7 @@ The console works like a mini shell. It lets you interact with the models throug
 1. Clone the repository and move into the folder:
 
 ```bash
-git clone <https://github.com/kimanzialu/alu-AirBnB_clone.git>
+git clone <https://github.com/igaimerca/alu-AirBnB_clone.git>
 cd alu-AirBnB_clone
 ```
 
@@ -60,11 +60,11 @@ Here are some of the main commands:
 1234-5678-9012
 
 (hbnb) show BaseModel 1234-5678-9012
-[BaseModel] (1234-5678-9012) {'id': '1234-5678-9012', 'created_at': '2025-09-11T12:00:00', 'updated_at': '2025-09-11T12:00:00'}
+[BaseModel] (1234-5678-9012) {'id': '1234-5678-9012', 'created_at': '2025-09-14T09:00:00', 'updated_at': '2025-09-14T09:00:00'}
 
-(hbnb) update BaseModel 1234-5678-9012 name "Kenny"
+(hbnb) update BaseModel 1234-5678-9012 name "Aime"
 (hbnb) show BaseModel 1234-5678-9012
-[BaseModel] (1234-5678-9012) {'id': '1234-5678-9012', 'created_at': '2025-09-11T12:00:00', 'updated_at': '2025-09-11T12:05:00', 'name': 'Kenny'}
+[BaseModel] (1234-5678-9012) {'id': '1234-5678-9012', 'created_at': '2025-09-14T09:00:00', 'updated_at': '2025-09-14T12:09:00', 'name': 'Aime'}
 
 (hbnb) all BaseModel
 ["[BaseModel] (1234-5678-9012) {...}"]
